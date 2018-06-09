@@ -16,6 +16,6 @@ class Comment extends Model
 
     //A comment belongs to a user
       public function user(){
-        return $this->belongsTo('App\Models\User');
+        return $this->belongsTo('App\User');
       }
 }
